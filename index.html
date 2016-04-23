@@ -3,49 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Tech Company Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="jQuery/jquery.slicknav.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>Tech Company &reg; &trade;</h1>
-        <h2>Website</h2>
-        <img src="http://lorempixel.com/g/100/100/city">
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul id="menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="services.html"><li>Services</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="#contact"><li>Contact</li></a>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <a href="index.html"><li>Home</li></a>
-            <a href="services.html"><li>Services</li></a>
-            <a href="about.html"><li>About</li></a>
-            <a href="#contact"><li>Contact</li></a>
-        </ul>
-    </nav>
-    <div id="social">
-        <img src="img/facebook-wrap.png"><img src="img/github-wrap.png"><img src="img/linkedin-wrap.png"><img src="img/twitter-wrap.png">
-        <ul>
-            <li>0123456789</li>
-            <li>techcompany@techcompany.com</li>
+    <div class="socialContainer">
+        <ul class="social">
+            <li><img src="img/facebook.png"></li>
+            <li><img src="img/github.png"></li>
+            <li><img src="img/linkedin.png"></li>
+            <li><img src="img/twitter.png"></li>
+            <li><img src="img/skype.png"></li>
         </ul>
     </div> <!-- Social Ends -->
 
     <div id="banner">
-        <img src="http://lorempixel.com/g/400/200/business">
+        <img class="logo" src="img/techcompany-logo.png">
+
     </div><!-- Banner Ends -->
 
-    <h1>Tech Company</h1>
+    <div class="colour">
+        <div id="content">
+            <h1 class="firstLetter">What we do</h1>
+            <p>This is a brief summary of the company to show the user what we are about. This is a brief summary of the company to show the user what we are about. This is a brief summary of the company to show the user what we are about. This is a brief summary of the company to show the user what we are about.</p>
+            <img src="http://lorempixel.com/g/400/200/business">
 
-    <h2>What were about</h2>
-    <p>This is a brief summary of the company to show the user what we are about</p>
-    <img src="http://lorempixel.com/g/400/200/business">
+        </div> <!-- Content Ends -->
+    </div>     <!-- Colour Ends -->
+
+     <div class="colour">
+        <div id="content">
+
 
     <h2>What were about continued</h2>
-    <p>This is a continuation of a brief summary of the company to show the user what we are about</p>
+    <p>This is a continuation of a brief summary of the company to show the user what we are about. This is a continuation of a brief summary of the company to show the user what we are about. This is a continuation of a brief summary of the company to show the user what we are about. This is a continuation of a brief summary of the company to show the user what we are about. This is a continuation of a brief summary of the company to show the user what we are about.</p>
     <img src="http://lorempixel.com/g/400/200/business">
 
-    <form id="contact">
+            </div> <!-- Content Ends -->
+    </div>     <!-- Colour Ends -->
+
+
+    <form id="contact" class="form">
         <h1>Contact us</h1>
         <label for="name">Name:</label>
         <input type="text" id="name"><br>
@@ -76,13 +91,15 @@
         allowfullscreen>
     </iframe>
 
-    <footer>
-        <img src="img/facebook-wrap.png"><img src="img/github-wrap.png"><img src="img/linkedin-wrap.png"><img src="img/twitter-wrap.png">
-        <ul>
-            <li>0123456789</li>
-            <li>techcompany@techcompany.com</li>
-        </ul>
+    <footer class="footer">
+        <p>content</p>
     </footer>
 
 </body>
+    <script>
+	$(function(){
+		$('#menu').slicknav();
+	});
+</script>
+
 </html>

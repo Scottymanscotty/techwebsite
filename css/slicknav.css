@@ -83,7 +83,7 @@
   top:0;
   font-size: 16px;
   box-sizing: border-box;
-  background: #4c4c4c;
+  background:  #17688E;
   padding: 5px;
   z-index: 1;
 }
@@ -103,7 +103,7 @@
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  background-color: #222; }
+  background-color:  #17688E; }
 
 .slicknav_nav {
   color: #fff;

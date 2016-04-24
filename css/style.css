@@ -107,8 +107,8 @@ img {
 }
 
 .social img {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     margin-bottom: -5px;
     margin-top: 2px;
 }
@@ -168,12 +168,7 @@ textarea {
     border: none;
     height: 100px;
     max-height: 100px;
-    margin-top: 20px;
-}
 
-input[type="checkbox"]:checked + label {
-    font-size: 1.3em;
-    color:#348AA8 ;
 }
 
 input[type="text"],
@@ -183,7 +178,8 @@ textarea {
     font-size: 20px;
     padding: 5px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 10px grey;
 }
 
 input[type="checkbox"] {
@@ -201,6 +197,13 @@ button {
     padding: 10px;
     width: 100px;
 }
+
+.telephone::before {
+    background-image: url("/img/phone.png")
+}
+
+
+
 
 
 /* -------- ABOUT PAGE --------*/

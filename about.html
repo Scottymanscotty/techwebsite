@@ -3,90 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <title>Tech Company Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="jQuery/jquery.slicknav.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>Tech Company &reg; &trade;</h1>
-        <h2>Website</h2>
-        <img src="http://lorempixel.com/g/100/100/city">
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul id="menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="services.html"><li>Services</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="#contact"><li>Contact</li></a>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <a href="index.html"><li>Home</li></a>
-            <a href="services.html"><li>Services</li></a>
-            <a href="about.html"><li>About</li></a>
-            <a href="index.html#contact"><li>Contact</li></a>
-        </ul>
-    </nav>
-    <div id="social">
-        <img src="img/facebook-wrap.png"><img src="img/github-wrap.png"><img src="img/linkedin-wrap.png"><img src="img/twitter-wrap.png">
-        <ul>
-            <li>0123456789</li>
-            <li>techcompany@techcompany.com</li>
+
+      <div id="banner">
+        <img class="logo" src="img/techcompany-logo.png">
+
+    </div><!-- Banner Ends -->
+    <div class="socialContainer">
+        <ul class="social">
+            <li><img src="img/facebook.png"></li>
+            <li><img src="img/github.png"></li>
+            <li><img src="img/linkedin.png"></li>
+            <li><img src="img/twitter.png"></li>
+            <li><img src="img/skype.png"></li>
         </ul>
     </div> <!-- Social Ends -->
 
-    <h1>About us</h1>
-    <p>This is about us and our histroy and plans for the future.......</p>
+    <div id="wrapper">
+        <div class="content">
 
-    <h3>The Team</h3>
-    <ul>
-        <a href="scott.html">
-            <li>
-            <img src="http://lorempixel.com/100/100/people">
-            <h4>Scott Walton</h4>
-            <h4>Director &amp; CEO</h4>
-            </li>
-        </a>
-        <a href="joey.html">
-            <li>
-                <img src="http://lorempixel.com/100/100/people">
-                <h4>Joey Stubbing</h4>
-                <h4>Co-Director</h4>
-            </li>
-        </a>
-        <a href="louis.html">
-            <li>
-                <img src="http://lorempixel.com/100/100/people">
-                <h4>Louis Clegg</h4>
-                <h4>Lead Developer</h4>
-            </li>
-        </a>
-        <a href="david.html">
-            <li>
-                <img src="http://lorempixel.com/100/100/people">
-                <h4>David Andrews</h4>
-                <h4>Lead Designer</h4>
-            </li>
-        </a>
-        <a href="faye.html">
-            <li>
-                <img src="http://lorempixel.com/100/100/people">
-                <h4>Faye Walton</h4>
-                <h4>Trainee Developer</h4>
-            </li>
-        </a>
-        <a href="tracie.html">
-            <li>
-                <img src="http://lorempixel.com/100/100/people">
-                <h4>Tracie Walton</h4>
-                <h4>Trainee Designer</h4>
-            </li>
-        </a>
-    </ul>
+            <h1 class="firstLetter">About us</h1>
+            <p class="firstLine">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo nibh, euismod a sem eu, facilisis interdum nunc. Nam mauris eros, iaculis vel est id, ornare tincidunt neque. Morbi et lorem lectus. Donec ligula magna, pellentesque consequat eros quis, sodales ultrices elit. Etiam egestas faucibus faucibus. In lobortis risus mi, in pharetra ligula faucibus eget. Integer sit amet mi in elit mattis dapibus sed vitae nisi.
 
-    <footer>
-        <img src="img/facebook-wrap.png"><img src="img/github-wrap.png"><img src="img/linkedin-wrap.png"><img src="img/twitter-wrap.png">
-        <ul>
-            <li>0123456789</li>
-            <li>techcompany@techcompany.com</li>
-        </ul>
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis porttitor eleifend ante, nec sollicitudin lorem dictum ac. Ut ac ipsum sed sem porttitor lobortis sit amet sed quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas erat urna, suscipit quis pretium vel, consectetur et lacus. In ullamcorper id tellus ac ultricies. Sed at imperdiet urna. Nulla scelerisque lobortis accumsan. Nullam euismod sollicitudin lacinia. Vivamus eget diam viverra, auctor magna laoreet, accumsan lacus. Vivamus ac ipsum tempus justo dapibus efficitur.
+
+            </p>
+        </div> <!-- Content Ends -->
+
+        <div class="content">
+            <h2 class="firstLetter">Meet the Team</h2>
+        </div> <!-- Content Ends -->
+
+
+        <div class="content">
+            <ul class="team">
+                <a href="scott.html">
+                    <li>
+                        <img src="http://lorempixel.com/200/200/people">
+                        <h4>Scott Walton</h4>
+                        <h4>Director &amp; CEO</h4>
+                    </li>
+                </a>
+                <a href="joey.html">
+                    <li>
+                        <img src="http://lorempixel.com/200/200/people">
+                        <h4>Joey Stubbing</h4>
+                        <h4>Co-Director</h4>
+                    </li>
+                </a>
+                <a href="louis.html">
+                    <li>
+                        <img src="http://lorempixel.com/200/200/people">
+                        <h4>Louis Clegg</h4>
+                        <h4>Lead Developer</h4>
+                    </li>
+                </a>
+                <a href="david.html">
+                    <li>
+                        <img src="http://lorempixel.com/200/200/people">
+                        <h4>David Andrews</h4>
+                        <h4>Lead Designer</h4>
+                    </li>
+                </a>
+                <a href="faye.html">
+                    <li>
+                        <img src="http://lorempixel.com/200/200/people">
+                        <h4>Faye Walton</h4>
+                        <h4>Trainee Developer</h4>
+                    </li>
+                </a>
+                <a href="tracie.html">
+                    <li>
+                        <img src="http://lorempixel.com/200/200/people">
+                        <h4>Tracie Walton</h4>
+                        <h4>Trainee Designer</h4>
+                    </li>
+                </a>
+            </ul>
+        </div> <!-- Content Ends -->
+    </div> <!-- Wrapper ends -->
+
+    <footer class="footer">
+        <span class="footer-content"><b>Tech Company &copy;2016</b></span>
     </footer>
+    <script>
+	   $(function(){
+		  $('#menu').slicknav();
+	   });
+    </script>
 
 </body>
 </html>

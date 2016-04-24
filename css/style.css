@@ -32,7 +32,8 @@ p {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
 	margin-top: 0;
     color: #17688E;
     text-transform: uppercase;
@@ -146,7 +147,7 @@ img {
     letter-spacing: 0.1em
 }
 
-h2.firstLetter, h1.firstLetter {
+h2.firstLetter, h1.firstLetter, h3.firstLetter {
     border-bottom: 3px solid grey;
 
 }
@@ -220,6 +221,28 @@ button:active {
 
 
 /* -------- ABOUT PAGE --------*/
+
+.team img {
+    border-radius: 50%;
+
+}
+
+ul.team h4 {
+    margin: 0;
+}
+
+ul.team li img {
+    width: 100px;
+    height: 100px;
+}
+
+ul.team li {
+    text-align: center;
+    margin: 0 auto;
+    background-color: lightgrey;
+    margin-bottom: 20px;
+    padding: 15px 10px;;
+}
 
 /* -------- SERVICES --------*/
 

@@ -275,21 +275,22 @@ td {
     text-align: center;
     border: 1px solid black;
     width: 100px;
+
 }
 
 caption {
     padding: 10px;
 }
 
-th.row {
+th.row, th.col {
     width: 100px;
+    min-width: 50px;
 }
 
 
 th {
     text-align: left;
     border: 2px solid black;
-    max-width: 50px;
 }
 
 

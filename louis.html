@@ -3,55 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Tech Company Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="jQuery/jquery.slicknav.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>Tech Company &reg; &trade;</h1>
-        <h2>Website</h2>
-        <img src="http://lorempixel.com/g/100/100/city">
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul id="menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="services.html"><li>Services</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="#contact"><li>Contact</li></a>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <a href="index.html"><li>Home</li></a>
-            <a href="services.html"><li>Services</li></a>
-            <a href="about.html"><li>About</li></a>
-            <a href="index.html#contact"><li>Contact</li></a>
-        </ul>
-    </nav>
-    <div id="social">
-        <img src="img/facebook-wrap.png"><img src="img/github-wrap.png"><img src="img/linkedin-wrap.png"><img src="img/twitter-wrap.png">
-        <ul>
-            <li>0123456789</li>
-            <li>techcompany@techcompany.com</li>
+    <div class="socialContainer">
+        <ul class="social">
+            <li><img src="img/facebook.png"></li>
+            <li><img src="img/github.png"></li>
+            <li><img src="img/linkedin.png"></li>
+            <li><img src="img/twitter.png"></li>
+            <li><img src="img/skype.png"></li>
         </ul>
     </div> <!-- Social Ends -->
 
-    <img src="http://lorempixel.com/g/200/200/people">
-    <h2>Name</h2>
-    <h3>About</h3>
-    <p>Describe person/history/interests</p>
-    <h3>Qualifications</h3>
-    <ul>
-        <li>qualification 1</li>
-        <li>qualification 2</li>
-        <li>qualification 3</li>
-    </ul>
+      <div id="banner">
+        <img class="logo" src="img/techcompany-logo.png">
 
+    </div><!-- Banner Ends -->
 
-
-
-    <footer>
-        <img src="img/facebook-wrap.png"><img src="img/github-wrap.png"><img src="img/linkedin-wrap.png"><img src="img/twitter-wrap.png">
-        <ul>
-            <li>0123456789</li>
-            <li>techcompany@techcompany.com</li>
+    <div class="content">
+        <div class="portfolio">
+        <img src="http://lorempixel.com/g/200/200/people">
+        <h2 class="firstLetter">Louis Clegg</h2>
+        <h3>About</h3>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla varius nulla, at molestie tortor. Suspendisse blandit sollicitudin mollis. Aenean consequat ex ex, sit amet auctor ante dignissim non. Pellentesque eleifend ante at ligula tristique malesuada. Donec laoreet tellus non massa elementum, non aliquet purus convallis. Suspendisse potenti. Fusce blandit tellus ac mauris mollis, in varius est suscipit. In hac habitasse platea dictumst. Praesent in molestie tellus, a ultrices augue. Quisque augue nisl, blandit at urna lobortis, pretium vehicula orci. Maecenas eget augue mi. Vestibulum urna felis, maximus eget arcu quis, feugiat pellentesque leo. Suspendisse porta metus vitae ante blandit facilisis eget ac enim. Etiam fermentum enim neque, eget cursus turpis convallis non. Donec finibus non risus vel ullamcorper. Pellentesque vel rutrum odio.</p>
+        <h3>Qualifications</h3>
+        <ul class="qualifications">
+            <li>Degree</li>
+            <li>Qualification</li>
+            <li>Certificate</li>
         </ul>
-    </footer>
+        </div> <!-- portfolio -->
+    </div><!-- content Ends -->
 
+   <footer class="footer">
+        <span class="footer-content"><b>Tech Company &copy;2016</b></span>
+    </footer>
+    <script>
+	$(function(){
+		$('#menu').slicknav();
+	});
+</script>
 </body>
 </html>

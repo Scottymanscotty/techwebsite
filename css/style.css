@@ -30,6 +30,11 @@ p {
 
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 h1,
 h2,
 h3,
@@ -115,7 +120,7 @@ img {
 /* -- BANNER -- */
 
 #banner {
-    margin-top: 20px;
+    margin-top: 50px;
     height: 100%;
     text-align: center;
 }

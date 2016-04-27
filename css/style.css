@@ -261,11 +261,12 @@ ul.team li {
 
 table {
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     font-size: 75%;
     margin-bottom: 30px;
     border-collapse: collapse;
     background: #348AA8;
+
 }
 
 td {
@@ -273,14 +274,16 @@ td {
     border: 1px solid grey;
     text-align: center;
     border: 1px solid black;
-
+    width: 100px;
 }
 
 caption {
     padding: 10px;
 }
 
-
+th.row {
+    width: 100px;
+}
 
 
 th {

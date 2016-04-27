@@ -3,120 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <title>Tech Company Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="jQuery/jquery.slicknav.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>Tech Company &reg; &trade;</h1>
-        <h2>Website</h2>
-        <img src="http://lorempixel.com/g/100/100/city">
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul id="menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="services.html"><li>Services</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="#contact"><li>Contact</li></a>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <a href="index.html"><li>Home</li></a>
-            <a href="services.html"><li>Services</li></a>
-            <a href="about.html"><li>About</li></a>
-            <a href="index.html#contact"><li>Contact</li></a>
-        </ul>
-    </nav>
-    <div id="social">
-        <img src="img/facebook-wrap.png"><img src="img/github-wrap.png"><img src="img/linkedin-wrap.png"><img src="img/twitter-wrap.png">
-        <ul>
-            <li>0123456789</li>
-            <li>techcompany@techcompany.com</li>
+    <div class="socialContainer">
+        <ul class="social">
+            <li><img src="img/facebook.png"></li>
+            <li><img src="img/github.png"></li>
+            <li><img src="img/linkedin.png"></li>
+            <li><img src="img/twitter.png"></li>
+            <li><img src="img/skype.png"></li>
         </ul>
     </div> <!-- Social Ends -->
 
-    <h1>Services we offer</h1>
+      <div id="banner">
+        <img class="logo" src="img/techcompany-logo.png">
 
-    <h3>Website Development</h3>
-    <p>Placeholder Description</p>
-    <h3>Website Design</h3>
-    <p>Placeholder Description</p>
-    <h3>Your own Personal Designer/Developer</h3>
-    <p>Placeholder Description</p>
-    <h3>Hosting &amp; Domain Registration</h3>
-    <p>Placeholder Description</p>
-    <h3>24/7 Support</h3>
-    <p>Placeholder Description</p>
-    <h3>Your own Senior Designer</h3>
-    <p>Placeholder Description</p>
-    <h3>Search Engine Optimization</h3>
-    <p>Placeholder Description</p>
+    </div><!-- Banner Ends -->
 
-    <h2>Here's what you can get...</h2>
 
-    <table>
-        <thead>
-            <tr>
-                <th></th>
-                <th scope="col">Basic</th>
-                <th scope="col">Premium</th>
-                <th scope="col">Deluxe</th>
-                <th scope="col">Business</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-            <th scope="row">Designer</th>
-                <td>&#10004; </td>
-                <td>&#10004; </td>
-                <td>&#10004; </td>
-                <td>&#10004; </td>
-            </tr>
-            <tr>
-             <th scope="row">Developer</th>
-                <td>&#10004; </td>
-                <td>&#10004; </td>
-                <td>&#10004; </td>
-                <td>&#10004; </td>
-            </tr>
-            <tr>
-             <th scope="row">Domain Registration</th>
-                <td>&#x2716;</td>
-                <td>&#10004; </td>
-                <td>&#10004; </td>
-                <td>&#10004; </td>
-            </tr>
-            <tr>
-             <th scope="row">Website Hosting</th>
-                <td>&#x2716;</td>
-                <td>&#x2716;</td>
-                <td>&#10004; </td>
-                <td>&#10004; </td>
-            </tr>
-            <tr>
-             <th scope="row">SEO</th>
-                <td>&#x2716;</td>
-                <td>&#x2716;</td>
-                <td>&#10004; </td>
-                <td>&#10004; </td>
-            </tr>
-            <tr>
-             <th scope="row">24/7 Support</th>
-                <td>&#x2716;</td>
-                <td>&#x2716;</td>
-                <td>&#x2716;</td>
-                <td>&#10004; </td>
-            </tr>
-        </tbody>
-    </table>
+<div class="content">
+        <h1 class="firstLetter">Services we offer</h1>
+    </div>
+     <div class="content">
+
+        <h3 class="firstLetter">Website Development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, lorem vel congue pulvinar, diam enim rhoncus dui, et elementum turpis mi non nisi. Donec sit amet lacus quis libero vehicula faucibus. Morbi vitae elit at mauris lobortis condimentum. Maecenas a nisl at tortor dignissim auctor at et velit. Nam sagittis, dolor consectetur suscipit pellentesque, magna ante tristique dui, eget molestie metus ante eu lorem. Vestibulum eleifend nibh non est dictum rhoncus. Pellentesque blandit ac turpis id blandit.</p>
+        <h3 class="firstLetter">Website Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, lorem vel congue pulvinar, diam enim rhoncus dui, et elementum turpis mi non nisi. Donec sit amet lacus quis libero vehicula faucibus. Morbi vitae elit at mauris lobortis condimentum. Maecenas a nisl at tortor dignissim auctor at et velit. Nam sagittis, dolor consectetur suscipit pellentesque, magna ante tristique dui, eget molestie metus ante eu lorem. Vestibulum eleifend nibh non est dictum rhoncus. Pellentesque blandit ac turpis id blandit.</p>
+        <h3 class="firstLetter">Your own Personal Designer/Developer</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, lorem vel congue pulvinar, diam enim rhoncus dui, et elementum turpis mi non nisi. Donec sit amet lacus quis libero vehicula faucibus. Morbi vitae elit at mauris lobortis condimentum. Maecenas a nisl at tortor dignissim auctor at et velit. Nam sagittis, dolor consectetur suscipit pellentesque, magna ante tristique dui, eget molestie metus ante eu lorem. Vestibulum eleifend nibh non est dictum rhoncus. Pellentesque blandit ac turpis id blandit.</p>
+        <h3 class="firstLetter">Hosting &amp; Domain Registration</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, lorem vel congue pulvinar, diam enim rhoncus dui, et elementum turpis mi non nisi. Donec sit amet lacus quis libero vehicula faucibus. Morbi vitae elit at mauris lobortis condimentum. Maecenas a nisl at tortor dignissim auctor at et velit. Nam sagittis, dolor consectetur suscipit pellentesque, magna ante tristique dui, eget molestie metus ante eu lorem. Vestibulum eleifend nibh non est dictum rhoncus. Pellentesque blandit ac turpis id blandit.</p>
+        <h3 class="firstLetter">24/7 Support</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, lorem vel congue pulvinar, diam enim rhoncus dui, et elementum turpis mi non nisi. Donec sit amet lacus quis libero vehicula faucibus. Morbi vitae elit at mauris lobortis condimentum. Maecenas a nisl at tortor dignissim auctor at et velit. Nam sagittis, dolor consectetur suscipit pellentesque, magna ante tristique dui, eget molestie metus ante eu lorem. Vestibulum eleifend nibh non est dictum rhoncus. Pellentesque blandit ac turpis id blandit.</p>
+        <h3 class="firstLetter">Your own Senior Designer</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, lorem vel congue pulvinar, diam enim rhoncus dui, et elementum turpis mi non nisi. Donec sit amet lacus quis libero vehicula faucibus. Morbi vitae elit at mauris lobortis condimentum. Maecenas a nisl at tortor dignissim auctor at et velit. Nam sagittis, dolor consectetur suscipit pellentesque, magna ante tristique dui, eget molestie metus ante eu lorem. Vestibulum eleifend nibh non est dictum rhoncus. Pellentesque blandit ac turpis id blandit.</p>
+        <h3 class="firstLetter">Search Engine Optimization</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, lorem vel congue pulvinar, diam enim rhoncus dui, et elementum turpis mi non nisi. Donec sit amet lacus quis libero vehicula faucibus. Morbi vitae elit at mauris lobortis condimentum. Maecenas a nisl at tortor dignissim auctor at et velit. Nam sagittis, dolor consectetur suscipit pellentesque, magna ante tristique dui, eget molestie metus ante eu lorem. Vestibulum eleifend nibh non est dictum rhoncus. Pellentesque blandit ac turpis id blandit.</p>
+
+    </div>    <!-- Content Ends -->
+
+    <div class="content">
+
+        <h2 class="firstLetter">Here's what you can get...</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th scope="col">Basic</th>
+                    <th scope="col">Premium</th>
+                    <th scope="col">Deluxe</th>
+                    <th scope="col">Business</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">Designer</th>
+                    <td class="green">&#10004; </td>
+                    <td class="green">&#10004; </td>
+                    <td class="green">&#10004; </td>
+                    <td class="green">&#10004; </td>
+                </tr>
+                <tr>
+                 <th scope="row">Developer</th>
+                    <td class="green">&#10004; </td>
+                    <td class="green">&#10004; </td>
+                    <td class="green">&#10004; </td>
+                    <td class="green">&#10004; </td>
+                </tr>
+                <tr>
+                 <th scope="row">Domain Registration</th>
+                    <td class="red">&#x2716;</td>
+                    <td class="green">&#10004; </td>
+                    <td class="green">&#10004; </td>
+                    <td class="green">&#10004; </td>
+                </tr>
+                <tr>
+                 <th scope="row">Website Hosting</th>
+                    <td class="red">&#x2716;</td>
+                    <td class="red">&#x2716;</td>
+                    <td class="green">&#10004; </td>
+                    <td class="green">&#10004; </td>
+                </tr>
+                <tr>
+                 <th scope="row">SEO</th>
+                    <td class="red" >&#x2716;</td>
+                    <td class="red">&#x2716;</td>
+                    <td class="green">&#10004; </td>
+                    <td class="green">&#10004; </td>
+                </tr>
+                <tr>
+                 <th scope="row">24/7 Support</th>
+                    <td class="red">&#x2716;</td>
+                    <td class="red">&#x2716;</td>
+                    <td class="red">&#x2716;</td>
+                    <td class="green">&#10004; </td>
+                </tr>
+            </tbody>
+        </table>
 
     <button>Buy now!</button>
 
+  </div>    <!-- Content Ends -->
 
-
-    <footer>
-        <img src="img/facebook-wrap.png"><img src="img/github-wrap.png"><img src="img/linkedin-wrap.png"><img src="img/twitter-wrap.png">
-        <ul>
-            <li>0123456789</li>
-            <li>techcompany@techcompany.com</li>
-        </ul>
+    <footer class="footer">
+        <span class="footer-content"><b>Tech Company &copy;2016</b></span>
     </footer>
+ <script>
+	$(function(){
+		$('#menu').slicknav();
+	});
+</script>
 
 </body>
 </html>

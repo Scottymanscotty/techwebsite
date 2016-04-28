@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
     <meta charset="UTF-8">
     <title>Tech Company Website</title>
@@ -15,14 +15,18 @@
 
 <body>
     <header class="main-header">
-        <nav class="main-nav">
-            <ul id="menu">
-                <a href="index.html"><li>Home</li></a>
-                <a href="services.html"><li>Services</li></a>
-                <a href="about.html"><li>About</li></a>
-                <a href="#contact"><li>Contact</li></a>
-            </ul>
-        </nav>
+        <div class="header clearfix">
+
+            <nav class="main-nav">
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>  <!-- Content Ends -->
     </header>
     <div class="socialContainer">
         <ul class="social">
@@ -40,32 +44,39 @@
     </div><!-- Banner Ends -->
 
 
-    <div id="wrapper">
+    <div id="wrapper" class="clearfix">
 
      <div class="content">
          <h1 class="firstLetter">What we do</h1>
      </div> <!-- Content Ends -->
 
-    <div class="content">
-        <h2 class="firstLetter">Design</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas efficitur orci vel efficitur. Cras nec libero placerat, laoreet metus aliquam, laoreet purus. Aliquam ullamcorper tempor turpis, non molestie leo hendrerit id. Suspendisse ornare enim eget dui cursus, ut convallis nisi finibus. Praesent feugiat bibendum euismod. Nunc interdum maximus mauris. Nam eget diam malesuada, pulvinar lorem ut, pretium ipsum. Sed mattis massa sit amet libero facilisis, vitae ornare dolor aliquam..</p>
-        <img src="http://lorempixel.com/g/600/300/business">
-    </div> <!-- Content Ends -->
 
-    <div class="content">
-        <h2 class="firstLetter">Development</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas efficitur orci vel efficitur. Cras nec libero placerat, laoreet metus aliquam, laoreet purus. Aliquam ullamcorper tempor turpis, non molestie leo hendrerit id. Suspendisse ornare enim eget dui cursus, ut convallis nisi finibus. Praesent feugiat bibendum euismod. Nunc interdum maximus mauris. Nam eget diam malesuada, pulvinar lorem ut, pretium ipsum. Sed mattis massa sit amet libero facilisis, vitae ornare dolor aliquam.</p>
-        <img src="http://lorempixel.com/g/600/300/business">
-    </div> <!-- Content Ends -->
-
-    <div class="content">
-        <h2 class="firstLetter">Search engine optimization</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas efficitur orci vel efficitur. Cras nec libero placerat, laoreet metus aliquam, laoreet purus. Aliquam ullamcorper tempor turpis, non molestie leo hendrerit id. Suspendisse ornare enim eget dui cursus, ut convallis nisi finibus. Praesent feugiat bibendum euismod. Nunc interdum maximus mauris. Nam eget diam malesuada, pulvinar lorem ut, pretium ipsum. Sed mattis massa sit amet libero facilisis, vitae ornare dolor aliquam.</p>
+        <div class="content column">
+            <h2 class="firstLetter">Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas efficitur orci vel efficitur. Cras nec libero placerat, laoreet metus aliquam, laoreet purus. Aliquam ullamcorper tempor turpis, non molestie leo hendrerit id. Suspendisse ornare enim eget dui cursus, ut convallis nisi finibus. Praesent feugiat bibendum euismod. Nunc interdum maximus mauris. Nam eget diam malesuada, pulvinar lorem ut, pretium ipsum. Sed mattis massa sit amet libero facilisis, vitae ornare dolor aliquam..</p>
             <img src="http://lorempixel.com/g/600/300/business">
-    </div> <!-- Content Ends -->
+        </div> <!-- Content Ends -->
 
 
-    <div class="content">
+
+
+        <div class="content column  ">
+            <h2 class="firstLetter">Development</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas efficitur orci vel efficitur. Cras nec libero placerat, laoreet metus aliquam, laoreet purus. Aliquam ullamcorper tempor turpis, non molestie leo hendrerit id. Suspendisse ornare enim eget dui cursus, ut convallis nisi finibus. Praesent feugiat bibendum euismod. Nunc interdum maximus mauris. Nam eget diam malesuada, pulvinar lorem ut, pretium ipsum. Sed mattis massa sit amet libero facilisis, vitae ornare dolor aliquam..</p>
+            <img src="http://lorempixel.com/g/600/300/business">
+        </div> <!-- Content Ends -->
+
+
+
+        <div class="content column">
+            <h2 class="firstLetter">Search Engine Optimization</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas efficitur orci vel efficitur. Cras nec libero placerat, laoreet metus aliquam, laoreet purus. Aliquam ullamcorper tempor turpis, non molestie leo hendrerit id. Suspendisse ornare enim eget dui cursus, ut convallis nisi finibus. Praesent feugiat bibendum euismod. Nunc interdum maximus mauris. Nam eget diam malesuada, pulvinar lorem ut, pretium ipsum. Sed mattis massa sit amet libero facilisis, vitae ornare dolor aliquam..</p>
+            <img src="http://lorempixel.com/g/600/300/business">
+        </div> <!-- Content Ends -->
+
+
+
+    <div class="content column">
         <form id="contact" class="form">
             <h2 class="firstLetter">Contact us</h2>
             <div class="details">
@@ -81,6 +92,7 @@
         </form>
      </div> <!-- Content Ends -->
 
+
 </div> <!-- Wrapper ends -->
     <footer class="footer">
         <span class="footer-content"><b>Tech Company &copy;2016</b></span>
@@ -92,5 +104,6 @@
 		$('#menu').slicknav();
 	});
 </script>
+    <script src="jQuery/scott.js"> </script>
 
 </html>

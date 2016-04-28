@@ -58,7 +58,7 @@
 
     .main-nav {
         float: right;
-        margin: 0 auto;
+        margin-right: 25px;
         text-transform: uppercase;
       /*  text-shadow: 2.5px 4px 3px ; */
     }

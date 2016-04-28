@@ -1,0 +1,82 @@
+@media screen and (min-width: 700px) {
+    .column {
+        width: 48%;
+        float: left;
+        margin: 1%;
+        text-align: left;
+
+    }
+
+    .content img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    input {
+        padding-bottom: 50px;
+    }
+
+    textarea {
+        margin-bottom: 75px
+    }
+
+    body {
+        padding-top: 75px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logoTop {
+        display: block;
+        height: 100px;
+        width: 100px;
+        float: left;
+        margin-left: 50px;
+    }
+
+       /* ---- Nav for larger screens ---- */
+
+    .slicknav_menu {
+        display: none;
+    }
+
+    .main-header {
+        position: fixed;
+        box-shadow: 0 1px 4px rgba(0,0,0,.4);
+        width: 100%;
+        top: 0;
+        height: auto;
+}
+
+    .main-header {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .main-nav {
+
+        float:right;
+        text-transform: uppercase;
+      /*  text-shadow: 2.5px 4px 3px ; */
+    }
+
+    .main-nav ul li {
+        text-align: center;
+        margin: 0 auto;
+        float: left;
+        display: inline-block;
+
+}
+    .main-nav a {
+        display: block;
+        padding: 15px;
+    }
+
+
+
+
+
+
+}

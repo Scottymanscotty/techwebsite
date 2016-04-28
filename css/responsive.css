@@ -21,17 +21,17 @@
     }
 
     body {
-        padding-top: 75px;
+        padding-top: 95px;
     }
 
     .logo {
-        display: none;
+
     }
 
-    .logoTop {
+    .navLogo {
         display: block;
-        height: 100px;
-        width: 100px;
+        height: 75px;
+        width: 90px;
         float: left;
         margin-left: 50px;
     }
@@ -43,6 +43,7 @@
     }
 
     .main-header {
+        height: 150px;
         position: fixed;
         box-shadow: 0 1px 4px rgba(0,0,0,.4);
         width: 100%;
@@ -56,18 +57,17 @@
     }
 
     .main-nav {
-
-        float:right;
+        float: right;
+        margin: 0 auto;
         text-transform: uppercase;
       /*  text-shadow: 2.5px 4px 3px ; */
     }
 
     .main-nav ul li {
-        text-align: center;
-        margin: 0 auto;
         float: left;
         display: inline-block;
-
+        margin-left: 25px;
+        padding: 10px
 }
     .main-nav a {
         display: block;

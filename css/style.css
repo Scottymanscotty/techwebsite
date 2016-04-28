@@ -109,6 +109,7 @@ img {
 
 .main-header {
     display: none;
+    z-index: 2;
 }
 
 /* -- SOCIAL -- */
@@ -118,6 +119,9 @@ img {
 
 
 .socialContainer {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
     background-color:#348AA8;
     text-align: center;
     border-bottom: 10px solid #17688E;
@@ -246,6 +250,7 @@ button:active {
 
 /* -------- ABOUT PAGE --------*/
 
+
 ul.team h4 {
     margin: 0;
 }
@@ -264,13 +269,10 @@ ul.team li p {
 }
 
 ul.team li {
-    max-width: 400px;
+    max-width: 100%;
     text-align: center;
-    margin: 0 auto;
     background-color: lightgrey;
     margin-bottom: 20px;
-
-
     padding: 20px 20px;
     border-radius: 30px;
 }

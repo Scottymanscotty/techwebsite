@@ -5,11 +5,12 @@
     }
 
     .team li  {
-        width: 49%;
+        width: 33.3%;
         float: left;
-        margin: 0.5%;
-
+        margin: %;
+        border: 2px solid #17688E;
 }
+
 
 
 @media screen and (min-width: 700px) {
@@ -17,7 +18,10 @@
         width: 49%;
         float: left;
         text-align: left;
-        margin: 0.5%
+        margin: 0.5%;
+        border: 2px solid #17688E;
+        overflow: hidden;
+
 
     }
 

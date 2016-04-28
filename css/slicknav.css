@@ -85,7 +85,7 @@
   box-sizing: border-box;
   background:  #17688E;
   padding: 5px;
-  z-index: 1;
+  z-index: 2;
 }
   .slicknav_menu * {
     box-sizing: border-box; }

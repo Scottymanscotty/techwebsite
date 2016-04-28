@@ -56,7 +56,10 @@ img {
 
 /* -- CONTENT -- */
 
+
+
 .content {
+    width: 100%;
     max-width: 960px;
     margin: 0 auto;
     margin-top: 50px;
@@ -64,9 +67,23 @@ img {
     background-color: #f4f4f4;
 }
 
+#wrapper {
+    max-width: 960px;
+     margin: 0 auto;
+    text-align: center;
+}
+
 
 
 /* -- HEADER -- */
+
+
+.header {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
 
 #header {
     max-height: 100%;
@@ -75,6 +92,7 @@ img {
 
 .main-header {
     text-align: center;
+    background: white;
 }
 
 .main-header h1 {
@@ -90,11 +108,13 @@ img {
 
 /* -- NAV -- */
 
-.main-nav {
+.main-header {
     display: none;
 }
 
 /* -- SOCIAL -- */
+
+
 
 
 
@@ -166,6 +186,7 @@ form {
     background: #f4f4f4;
     max-width: 100%;
     height: auto;
+    text-align: left;
 }
 
 input {
@@ -335,7 +356,7 @@ th {
 /* -------- CLEARFIX --------*/
 
 .clearfix::after {
-  content: "";
+  content: " ";
   display: table;
   clear: both;
 }

@@ -350,6 +350,25 @@ th {
 
 /* -------- PSUEDO STYLES --------*/
 
+a:link {color:#17688E;}
+
+a:visited {color:  #348AA8;}
+
+a:hover {color: #A7BBEC;}
+
+a:focus {color: red;
+    position:relative;
+    top:2px;
+    left:2px
+}
+
+a:active {color: #17688E ;
+    position:relative;
+    top:2px;
+    left:2px;
+}
+
+
 .firstLetter::first-letter {
     font-size: 1.5em;
 
